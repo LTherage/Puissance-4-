@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'fr.univartois.butinfo.ihm.fourinaline.HelloApplication'
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:21'
+    implementation 'org.openjfx:javafx-fxml:21'
+    implementation files('lib/jfx-network.jar')
+}
