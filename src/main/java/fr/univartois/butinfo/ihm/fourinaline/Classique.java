@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class Classique {
     public static void main(String[] args) throws IOException {
-        // Création du modèle de jeu
+        // Création du modèle de jeu + mise en place d'un serveur de jeu.'
         FacadeModele game = new ClassiqueModele();
         try (JFXNetworkServer<FacadeController> server =
                      new JFXNetworkServer<>(12345, game, FacadeController.class)) {
