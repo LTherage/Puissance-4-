@@ -17,6 +17,6 @@ public class Classique {
             game.setController(controller);
             server.start(2, game::initialize);
 
+        }
     }
-}
 }
