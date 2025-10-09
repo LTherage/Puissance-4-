@@ -63,7 +63,7 @@
 
 ## 🦄 Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Mise en place d'un puissance 4 en réseau </code>
 
 ---
 
